@@ -373,10 +373,6 @@ jQuery(function(s) {
                 }, 500), e()
             }), s(".content-left-hover-wrap").on("mouseleave touchleave", function() {
                 t()
-            }), s(".home-1-right .content").on("mouseenter touchenter", function() {
-                s(".home-1-right").fadeOut(400), s(".content-right-hover-wrap").animate({
-                    right: "0"
-                }, 500), s(".home-1-left").addClass("rightOnScreen"), t()
             }), s(".content-right-hover-wrap").on("mouseleave touchleave", function() {
                 e()
             }), Modernizr.mq("only all and (max-width: 480px)") && (s(".content-left-hover-wrap").on("click", function() {
@@ -467,6 +463,8 @@ jQuery(function(s) {
                     }
                 }), s("#sidr-id-mm_btn").on("click", function(t) {
                     t.preventDefault(), s.sidr("close", "mobile-menu")
+                }), s("a[data-slide]").on("click", function(t) {
+                    t.preventDefault(), s('#home-wrapper').slick('slickGoTo', s(this).data('slide') - 1)
                 }), s("#mobile-menu .sidr-class-dropdown__item").on("click", function(t) {
                     t.preventDefault();
                     var e = s(this).html();
