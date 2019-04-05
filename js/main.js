@@ -345,6 +345,9 @@ jQuery(function(s) {
                     customPaging: function(t, e) {
                         return '<a class="slide-count">' + ("0" + (e + 1)).slice(-2) + "</a>"
                     }
+                }),
+                s("a[data-slide]").on("click", function(t) {
+                    t.preventDefault(), s('#home-wrapper').slick('slickGoTo', s(this).data('slide') - 1)
                 })
             }
 
@@ -463,8 +466,6 @@ jQuery(function(s) {
                     }
                 }), s("#sidr-id-mm_btn").on("click", function(t) {
                     t.preventDefault(), s.sidr("close", "mobile-menu")
-                }), s("a[data-slide]").on("click", function(t) {
-                    t.preventDefault(), s('#home-wrapper').slick('slickGoTo', s(this).data('slide') - 1)
                 }), s("#mobile-menu .sidr-class-dropdown__item").on("click", function(t) {
                     t.preventDefault();
                     var e = s(this).html();

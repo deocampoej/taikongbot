@@ -1487,7 +1487,7 @@ table{width:auto!important}
 table td{width:auto!important;padding:3px}
 .clearfix::after{content:"";display:table;clear:both}
 .button,.woocommerce a.button,input[type=submit].button{cursor:pointer;position:relative;display:inline-block;font-size:16px;font-size:1.6rem;font-family:din-2014,sans-serif;font-weight:700;line-height:1;color:#fff;text-decoration:none;text-align:left;background:#0065a4;border:none;padding:14px 50px 14px 20px;margin-bottom:10px;margin-right:2%;vertical-align:middle;border-radius:0;transition:all .5s;overflow:hidden;text-transform:uppercase}
-.button:before,.woocommerce a.button:before,input[type=submit].button:before{content:"\e801";speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;position:absolute;right:10px;height:100%;width:30px}
+.button:before,.woocommerce a.button:before,input[type=submit].button:before{font-family: "Font Awesome 5 Free";content:'\f061';speak:none;font-style:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;position:absolute;right:10px;height:100%;width:30px}
 .button.download:before,.woocommerce a.button.download:before,input[type=submit].button.download:before{content:"\e800"}
 .button:hover,.woocommerce a.button:hover,input[type=submit].button:hover{color:#0065a4;background:#ccc;text-decoration:none}
 .button.medium,.woocommerce a.button.medium,input[type=submit].button.medium{font-size:20px;font-size:2rem;padding:18px 60px 18px 30px}
@@ -3628,7 +3628,7 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .home-1 .content-right-hover-wrap .content-right-hover{position:absolute;top:50%;right:0;transform:translateY(-50%);width:50%;background-image:url(../images/home-wood-pattern.png)}
 #home-wrapper .home-1 .content-right-hover-wrap .content-right-hover .content-right-hover-inner{padding:20px 40px 20px 100px;margin-left:-129px}
 #home-wrapper .home-1 .content-right-hover-wrap .content-right-hover .content-right-hover-inner .button{margin-right:0;margin-top:15px}
-#home-wrapper .home-1 .content{text-shadow: 5px 5px black;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:35px;font-size:3.5rem;font-weight:700;color:#fff}
+#home-wrapper .home-1 .content{text-shadow: 2px 4px 3px rgba(0,0,0,0.3);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:35px;font-size:3.5rem;font-weight:700;color:#fff}
 #home-wrapper .home-1 .content-border{z-index:900}
 #home-wrapper .home-1 .home-1-left{width:67%;height:100%;position:absolute;left:0;-webkit-clip-path:polygon(0 0,100% 0,50% 100%,0 100%);-ms-clip-path:polygon(0 0,100% 0,50% 100%,0 100%);clip-path:polygon(0 0,100% 0,50% 100%,0 100%)}
 @media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
@@ -3694,11 +3694,10 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .home-5 .content-wrap{margin:-80px -21.5px}
 #home-wrapper .home-5 .grid{position:relative;top:0;left:0;width:100%;margin-left:0}
 #home-wrapper .home-5 .grid .grid__item{min-height:30vh;background-repeat:no-repeat;background-size:cover;text-align:center;position:relative;padding-left:0}
-#home-wrapper .home-5 .grid .grid__item:before{content:'';width:100%;height:100%;background-color:#0065a4;opacity:.8;position:absolute;top:0;left:0}
 #home-wrapper .home-5 .content-container{position:relative;width:100%;padding:60px 20px;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column}
 #home-wrapper .home-5 .icon{font-size:80px;font-size:8rem}
 #home-wrapper .home-5 a:hover{color:#0065a4;text-decoration:none}
-#home-wrapper .home-5 h2{opacity:.7;line-height:1.1;font-size:28px;font-size:2.8rem}
+#home-wrapper .home-5 h2{line-height:1.1;font-size:28px;font-size:2.8rem;text-shadow: 2px 4px 3px rgba(0,0,0,0.3);}
 #home-wrapper .home-5 .section-title{opacity:1;margin-top:28px}
 #home-wrapper .home-5 .button{white-space:nowrap}
 #home-wrapper .home-6 .content-wrap{margin:-80px -21.5px;height:100vh}
@@ -3725,7 +3724,6 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .home-4 .h3{font-size:28px;font-size:2.8rem}
 #home-wrapper .home-4 .gform_wrapper .gform_body,#home-wrapper .home-4 .gform_wrapper .gform_body div,#home-wrapper .home-4 .gform_wrapper .gform_body input{width:100%}
 #home-wrapper .home-4 .gform_wrapper .gform_footer{float:right}
-#home-wrapper .home-5 .grid__item:before{content:'';width:100%;height:100%;background-color:#0065a4;opacity:.8;position:absolute;top:0;left:0}
 #home-wrapper .home-6 .global-footer .parallax{perspective:unset;height:unset;overflow-y:unset;overflow-x:unset}
 #home-wrapper .home-6 .global-footer .parallax .parallax__layer{position:relative;top:unset;right:unset;bottom:unset;left:unset}
 #home-wrapper .home-6 .global-footer .parallax .parallax__layer.parallax__layer--base{transform:unset}
@@ -3764,7 +3762,6 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .home-5 .section-title{top:130px;left:43px}
 #home-wrapper .home-5 h2{font-size:45px;font-size:4.5rem;word-spacing:9999px}
 #home-wrapper .home-5 .content-wrap{margin:-130px -43px}
-#home-wrapper .home-5 .content{display:none}
 #home-wrapper .home-5 .grid{position:absolute}
 #home-wrapper .home-5 .grid .grid__item{height:100vh;position:absolute}
 #home-wrapper .home-5 .grid .grid__item:first-child{left:0}
