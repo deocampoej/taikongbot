@@ -3616,20 +3616,10 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .slick-dots.fixed{position:fixed;bottom:0;left:0;z-index:9999;width:100%}
 #home-wrapper .home-1{padding-bottom:50px}
 #home-wrapper .home-1:before{content:'';width:100%;height:100%;background-image:url('../img/alfonso-cenname-53146-unsplash.jpg');background-repeat:repeat;background-size:cover;background-position:0 0;position:absolute;top:0;left:0}
-#home-wrapper .home-1 .content{text-transform:uppercase}
-#home-wrapper .home-1 .content-left-hover-wrap,#home-wrapper .home-1 .content-right-hover-wrap{position:absolute;top:0;width:100%;height:100%;z-index:999;color:#fff}
-#home-wrapper .home-1 .content-left-hover-wrap .title,#home-wrapper .home-1 .content-right-hover-wrap .title{display:block;font-size:30px;font-size:3rem;text-transform:uppercase;font-weight:700;font-family:din-2014,sans-serif}
-#home-wrapper .home-1 .content-left-hover-wrap .text,#home-wrapper .home-1 .content-right-hover-wrap .text{display:block;font-size:16px;font-size:1.6rem}
-#home-wrapper .home-1 .content-left-hover-wrap{background:rgba(0,101,164,.9);width:100%;height:100%;position:absolute;left:-100%;clip-path:polygon(0 0,100% 0,50% 100%,0 100%);-webkit-clip-path:polygon(0 0,100% 0,50% 100%,0 100%)}
-#home-wrapper .home-1 .content-left-hover-wrap .content-left-hover{position:relative;top:50%;left:0;transform:translateY(-50%);width:50%;background:repeating-linear-gradient(135deg,#0288db 1px,transparent 3px,transparent 10px,transparent 10px)}
-#home-wrapper .home-1 .content-left-hover-wrap .content-left-hover .content-left-hover-inner{padding:20px 100px 20px 40px;margin-right:-172px}
-#home-wrapper .home-1 .content-left-hover-wrap .content-left-hover .content-left-hover-inner .button{margin-right:0;margin-top:15px}
-#home-wrapper .home-1 .content-right-hover-wrap{right:-100%;background:rgba(33,33,33,.9);-webkit-clip-path:polygon(50% 0,100% 0,100% 100%,0 100%);-ms-clip-path:polygon(50% 0,100% 0,100% 100%,0 100%);clip-path:polygon(50% 0,100% 0,100% 100%,0 100%);width:100%;height:100%;position:absolute}
-#home-wrapper .home-1 .content-right-hover-wrap .content-right-hover{position:absolute;top:50%;right:0;transform:translateY(-50%);width:50%;background-image:url(../images/home-wood-pattern.png)}
-#home-wrapper .home-1 .content-right-hover-wrap .content-right-hover .content-right-hover-inner{padding:20px 40px 20px 100px;margin-left:-129px}
-#home-wrapper .home-1 .content-right-hover-wrap .content-right-hover .content-right-hover-inner .button{margin-right:0;margin-top:15px}
-#home-wrapper .home-1 .content{text-shadow: 2px 4px 3px rgba(0,0,0,0.3);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:35px;font-size:3.5rem;font-weight:700;color:#fff}
-#home-wrapper .home-1 .content-border{z-index:900}
+#home-wrapper .home-1 .content h1{text-transform:uppercase;text-shadow: 2px 4px 3px rgba(0,0,0,0.3);}
+#home-wrapper .home-1 .content p {max-width: 650px;margin:0 auto;}
+#home-wrapper .home-1 .content{line-height: 1.5;text-align: center;position:absolute;top:50%;left:0;right:0;transform:translate(0%,-50%);font-weight:700;color:#fff}
+#home-wrapper .home-1 .content-border{z-index:900;background: rgba(0, 0, 0, 0.5);}
 #home-wrapper .home-1 .home-1-left{width:67%;height:100%;position:absolute;left:0;-webkit-clip-path:polygon(0 0,100% 0,50% 100%,0 100%);-ms-clip-path:polygon(0 0,100% 0,50% 100%,0 100%);clip-path:polygon(0 0,100% 0,50% 100%,0 100%)}
 @media all and (-ms-high-contrast:none),(-ms-high-contrast:active) {
 #home-wrapper .home-1 .home-1-left:after{background:0 0}
@@ -3713,7 +3703,7 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .home-1 .home-1-right .content{left:50%}
 }
 @media only screen and (min-width:30em) {
-#home-wrapper .home-1 .content{font-size:55px;font-size:5.5rem}
+/*#home-wrapper .home-1 .content{font-size:55px;font-size:5.5rem}*/
 #home-wrapper .home-1 .home-1-right .content{left:44%}
 #home-wrapper .home-3 .grid__item{padding:20px 30px 20px 20px}
 #home-wrapper .home-3 .animated-image-container{min-height:33.33vh}
@@ -3730,7 +3720,7 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .home-6 .global-footer .parallax .parallax__layer.parallax__layer--back{transform:unset}
 }
 @media only screen and (min-width:37.5em) {
-#home-wrapper .home-1 .content{font-size:55px;font-size:5.5rem}
+/*#home-wrapper .home-1 .content{font-size:55px;font-size:5.5rem}*/
 }
 @media only screen and (min-width:48em) {
 #home-wrapper .slick-dots{padding-bottom:30px}
@@ -3741,7 +3731,7 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .home-1 .content-right-hover-wrap{width:67%}
 #home-wrapper .home-1 .content-right-hover-wrap .content-right-hover .content-right-hover-inner{margin-left:-150.5px}
 #home-wrapper .home-1 .home-1-left:after{width:40%;height:40%;top:31%;right:-4%;-webkit-clip-path:polygon(50% 0,100% 0,100% 100%,0 100%);-ms-clip-path:polygon(50% 0,100% 0,100% 100%,0 100%);clip-path:polygon(50% 0,100% 0,100% 100%,0 100%)}
-#home-wrapper .home-1 .content{font-size:8.5vw}
+/*#home-wrapper .home-1 .content{font-size:8.5vw}*/
 #home-wrapper .home-2 .grid .grid__item{height:100vh}
 #home-wrapper .home-2 .content-container{height:auto}
 #home-wrapper .home-2 .logo{max-width:50%;display:block;margin:0 auto}
@@ -3784,7 +3774,7 @@ section.product .intro h2{line-height:1.4}
 #home-wrapper .hero_slider--slide{padding:130px 43px 80px}
 #home-wrapper .home-1 .content-left-hover-wrap .content-left-hover .content-left-hover-inner{padding:20px 55px}
 #home-wrapper .home-1 .content-right-hover-wrap .content-right-hover .content-right-hover-inner{padding:20px 55px}
-#home-wrapper .home-1 .content{font-size:8vw}
+/*#home-wrapper .home-1 .content{font-size:8vw}*/
 #home-wrapper .home-1 .home-1-right .content{left:45%}
 #home-wrapper .home-2 .content{padding:20px 0}
 #home-wrapper .home-4 .content-wrap{margin-left:0;margin-right:0}
