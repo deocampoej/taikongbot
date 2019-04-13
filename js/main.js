@@ -459,7 +459,7 @@ jQuery(function(s) {
                 }), s("#global-header #mm_btn").sidr({
                     name: "mobile-menu",
                     side: "right",
-                    source: ".mobile_menu, .global-header__nav, .global-header__nav-top"
+                    source: ".mobile_menu, .global-header__nav"
                 }), s("body").swipe({
                     swipeRight: function() {
                         s.sidr("close", "mobile-menu")
